@@ -14,6 +14,6 @@ jobs:
         WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
         WPE_ENV: creative1234
         # Deploy Options
-        REMOTE_PATH: "creative-agency/"
+        REMOTE_PATH: "creative-agency/themes/custom-theme/"
         PHP_LINT: TRUE
         CACHE_CLEAR: TRUE
